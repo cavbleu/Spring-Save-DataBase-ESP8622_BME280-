@@ -1,0 +1,10 @@
+{
+        "id": 75,
+        "idsen": 1,
+        "temperature": 26.75,
+        "humidity": 24.55,
+        "pressure": 978.31,
+        "co": 0,
+        "datesend": "2023.11.09",
+        "timesend": "21:13:49"
+    }
