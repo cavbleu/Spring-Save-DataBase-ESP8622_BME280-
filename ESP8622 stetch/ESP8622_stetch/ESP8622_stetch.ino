@@ -6,10 +6,10 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
 
-const char* ssid = "Keenetic-Home_NumONE";
-const char* password = "Toop472@";
+const char* ssid = "YOUR_WIFI";
+const char* password = "YOUR_PASSWORD";
 
-const char* serverName = "http://192.168.10.8:8189/saveDataSensor";
+const char* serverName = "http://YOUR_SERVER:8189/saveDataSensor";
 
 Adafruit_BME280 bme;
 float temperature;
