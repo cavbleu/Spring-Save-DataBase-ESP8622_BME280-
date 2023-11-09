@@ -80,11 +80,11 @@
 				<groupId>org.flywaydb</groupId>
 				<artifactId>flyway-maven-plugin</artifactId>
 				<configuration>
-					<url>jdbc:postgresql://localhost:5432/postgres?currentSchema=test</url>
-					<user>postgres</user>
-					<password>1234</password>
+					<url>jdbc:postgresql://localhost:5432/postgres?currentSchema=YOUR_SCHEMA</url>
+					<user>YOUR_DB_LOGIN</user>
+					<password>YOUR_DB_PASSWORD</password>
 					<schemas>
-						<schema>sensors_data</schema>
+						<schema>YOUR_SCHEMA</schema>
 					</schemas>
 				</configuration>
 			</plugin>
